@@ -1,0 +1,2 @@
+install @types/node 
+install typescript bases 
