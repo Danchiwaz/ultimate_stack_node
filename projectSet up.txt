@@ -1,2 +1,15 @@
 install @types/node 
-install typescript bases 
+install typescript bases
+
+install SWC === used the compiler 
+== how to install==== 
+npm i -D @swc/cli @swc/core 
+the SWC compiler is 20x times much faster than Babel
+
+
+
+
+
+tested tickets
+CGL-294 - Saving a widget.
+CGL-135 - Title need to be bigger on every widget.
