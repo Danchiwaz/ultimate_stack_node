@@ -1,0 +1,13 @@
+version: '3'
+services:
+  backend: 
+    build: .
+    ports:
+      - 3000:3000
+      - 9229:2229 #debugger port
+    volumes:
+      - ./:/usr/src/app
+      - /usr/src/app/node_modules 
+    command: npm run start:docker
+    environment:
+      - PORT=3000
