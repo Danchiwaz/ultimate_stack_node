@@ -9,7 +9,7 @@ app.use(express.json());
 
 app.get("/", (req:Request, res:Response) =>{
     res.status(200).json({
-        message:"daniel maina is testing the correctness of the doc"
+        message:"Am now using the docker compose up changedsdfsdfsd"
     })
 })
 
